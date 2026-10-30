@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="multiverse.css">
+</head>
+<body>
+
+  <!-- ============ PART 1: HEADER (same on every page) ============ -->
+  <header class="site-header">
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">&#9776;</label>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="members.html">Members</a>
+      <a href="skills.html">Skills</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ PART 2: PAGE BANNER ============ -->
+    <section class="page-banner">
+      <p class="crumbs">HOME / <span>PROJECTS</span></p>
+      <h1>PROJECTS</h1>
+      <p class="banner-desc">School projects and activities we have worked on.</p>
+    </section>
+
+    <!-- ============ PART 3: PROJECT CARDS ============ -->
+    <section class="section">
+      <h2 class="section-title">OUR WORK</h2>
+      <div class="projects-grid">
+
+        <!-- PROJECT: School Website (copy this whole block to add a project) -->
+        <article class="card project">
+          <!-- Picture: save as images/project1.jpg -->
+          <div class="project-img" style="background-image: url(images/project1.jpg)"></div>
+          <div class="project-body">
+            <h3>SCHOOL WEBSITE</h3>
+            <p>A responsive website we built for a class activity.</p>
+            <div class="tags"><span class="chip small">HTML</span> <span class="chip small">CSS</span></div>
+            <a class="card-link" href="#">VIEW PROJECT &rarr;</a>
+          </div>
+        </article>
+
+        <!-- PROJECT: Student Database (copy this whole block to add a project) -->
+        <article class="card project">
+          <!-- Picture: save as images/project2.jpg -->
+          <div class="project-img" style="background-image: url(images/project2.jpg)"></div>
+          <div class="project-body">
+            <h3>STUDENT DATABASE</h3>
+            <p>A simple database to store and search student records.</p>
+            <div class="tags"><span class="chip small">SQL</span> <span class="chip small">Python</span></div>
+            <a class="card-link" href="#">VIEW PROJECT &rarr;</a>
+          </div>
+        </article>
+
+        <!-- PROJECT: Network Design (copy this whole block to add a project) -->
+        <article class="card project">
+          <!-- Picture: save as images/project3.jpg -->
+          <div class="project-img" style="background-image: url(images/project3.jpg)"></div>
+          <div class="project-body">
+            <h3>NETWORK DESIGN</h3>
+            <p>A small campus network planned and tested in Packet Tracer.</p>
+            <div class="tags"><span class="chip small">Networking</span> <span class="chip small">Cisco</span></div>
+            <a class="card-link" href="#">VIEW PROJECT &rarr;</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer class="site-footer">
+    <div class="footer-left">
+ 
+      <span class="footer-slogan">Better Skills. Brighter Future.</span>
+    </div>
+
+  </footer>
+
+</body>
+</html>

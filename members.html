@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Members</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Orbitron:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mem.css">
+</head>
+<body>
+
+  <!-- ============ PART 1: HEADER (same on every page) ============ -->
+  <header class="site-header">
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="menu-btn" aria-label="Toggle menu">&#9776;</label>
+    <nav class="nav" id="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="members.html">Members</a>
+      <a href="skills.html">Skills</a>
+      <a href="resume.html">Resume</a>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ PART 2: PAGE BANNER ============ -->
+    <section class="page-banner">
+      <p class="crumbs">HOME / <span>OUR MEMBERS</span></p>
+      <h1>OUR MEMBERS</h1>
+      <p class="banner-desc">Meet the people behind this portfolio.</p>
+    </section>
+
+    <!-- ============ PART 3: MEMBER CARDS ============ -->
+    <section class="section">
+      <h2 class="section-title">THE TEAM</h2>
+      <div class="members-grid">
+
+        <!-- MEMBER 1: the whole card is ONE link (copy this block to add a member) -->
+        <div class="mem1">
+          <a class="card member" href="member1.html">
+            <!-- Photo: replace the line below with  <img class="avatar" src="images/member1.jpg" alt="Member One"> -->
+            <img class="avatar" src="nigk.jpg" alt="Francis Cacananta">
+            <h3>Francis Cacananta</h3>
+            <p class="role">TEAM LEADER</p>
+            <p>Keeps the team organized and on schedule.</p>
+          </a>
+        </div>
+
+        <!-- MEMBER 2 -->
+        <div class="mem2">
+          <a class="card member" href="member2.html">
+            <!-- Photo: replace the line below with  <img class="avatar" src="images/member2.jpg" alt="Member Two"> -->
+            <img class="avatar" src="tyron.jpg" alt="Member One">
+            <h3>Tyron Nesperos</h3>
+            <p class="role">FRONT-END DEV</p>
+            <p>Loves turning designs into working pages.</p>
+          </a>
+        </div>
+
+        <!-- MEMBER 3 -->
+        <div class="mem3">
+          <a class="card member" href="member3.html">
+            <!-- Photo: replace the line below with  <img class="avatar" src="images/member3.jpg" alt="Member Three"> -->
+            <img class="avatar" src="ROCHELLE.jpg" alt="Member One">
+            <h3>Rochelle Mercado</h3>
+            <p class="role">BACK-END DEV</p>
+            <p>Enjoys databases and making things work.</p>
+          </a>
+        </div>
+
+        <!-- MEMBER 4 -->
+        <div class="mem4">
+          <a class="card member" href="member4.html">
+            <!-- Photo: replace the line below with  <img class="avatar" src="images/member4.jpg" alt="Member Four"> -->
+            <img class="avatar" src="calaur.jpg" alt="Member One">
+            <h3>Rubelyn Calaur</h3>
+            <p class="role">UI/UX DESIGNER</p>
+            <p>Cares about colors, layouts and details.</p>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER (same on every page) ============ -->
+  <footer class="site-footer">
+    <div class="footer-left">
+
+      <span class="footer-slogan">Better Skills. Brighter Future.</span>
+    </div>
+
+  </footer>
+
+</body>
+</html>
